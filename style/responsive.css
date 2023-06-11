@@ -1,0 +1,70 @@
+@media screen and (max-width: 991px) {
+    #topbar {
+        padding: 0;
+    }
+
+    #topbar .top-left {
+        margin-bottom: 10px;
+    }    
+
+    .navbar-collapse.show {
+        background: #007bff;
+        padding: 10px 0;
+    }   
+
+    .navbar .button {
+        display: none;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+
+    .nav-item a {
+        padding: 5px;
+        margin: 0;
+    }
+
+    .nav-item a:hover {
+        background-color: #ccc;
+        border-radius: 5px;
+        color: #000 !important;
+    }
+
+    .dropdown-menu {
+        background: none !important;
+    }
+
+    .dropdown-item {
+        color: #ffffff !important;
+        padding: 5px 20px !important;
+    }
+    
+    .dropdown-item:hover {
+        background-color: #ccc !important;
+        color: #000 !important;
+    }
+
+}
+
+@media screen and (min-width: 991px) {
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .pricing-card {
+        margin-bottom: 30px;
+    }
+
+    .contact .contact-form {
+        margin: 100px 0 50px 0;
+    }
+
+    .contact .contact-text {
+        margin-bottom: 100px;
+    }
+
+    
+}
