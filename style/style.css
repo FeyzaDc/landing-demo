@@ -653,24 +653,6 @@
 }
 
 
-/* bottom-bar */
-.bottom-area {
-    background: #0060ff;
-    padding: 35px 0px;
-    font-size: 15px;
-    color: white;
-}
-
-.bottom-area p,
-.bottom-area a {
-    font-weight: 600 !important;
-}
-
-.bottom-area .bottom-logo a {
-    margin-left: 25px;
-}
-
-
 /* footer */
 .footer {
     background: url("https://feyzadc.github.io/landing-demo/assets/footer-bg.png") center center/cover no-repeat local;
@@ -765,6 +747,26 @@
 .footer-insta li img {
     width: 100%;
 }
+
+
+/* bottom-bar */
+.bottom-area {
+    background: #0060ff;
+    padding: 35px 0px;
+    font-size: 15px;
+    color: white;
+}
+
+.bottom-area p,
+.bottom-area a {
+    font-weight: 600 !important;
+    margin: 0;
+}
+
+.bottom-area .bottom-logo a {
+    margin-left: 25px;
+}
+
 
 
 #scrollUp {
