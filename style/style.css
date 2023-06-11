@@ -103,7 +103,7 @@
 }
 
 #header .header-carousel .header-one {
-    background-image: linear-gradient(-90deg, rgba(0, 0, 0, 0.308) 100%, rgba(0, 0, 0, 0.267) 100%), url("/landing-demo/assets/bg4.jpg");
+    background-image: linear-gradient(-90deg, rgba(0, 0, 0, 0.308) 100%, rgba(0, 0, 0, 0.267) 100%), url(/landing-demo/assets/bg4.jpg);
     background-size: cover;
 }
 
@@ -278,7 +278,7 @@
 }
 
 .services-card:hover {
-    background: url(assets/service.jpg) center center/cover no-repeat local;
+    background: url("/landing-demo/assets/service.jpg") center center/cover no-repeat local;
 }
 
 
@@ -384,7 +384,7 @@
 
 /* quality */
 .quality {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.582) 100%, rgba(0, 0, 0, 0) 100%), url(assets/red.jpg);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.582) 100%, rgba(0, 0, 0, 0) 100%), url("/landing-demo/assets/red.jpg");
     background-size: cover;
     padding-bottom: 110px !important;
 }
@@ -521,7 +521,7 @@
 
 /* contact */
 .contact {
-    background: url(assets/inner.jpg) center center/cover no-repeat fixed;
+    background: url("/landing-demo/assets/inner.jpg") center center/cover no-repeat fixed;
     background-position: center center;
 }
 
@@ -635,7 +635,7 @@
 }
 
 .blog-card:hover {
-    background: url(assets/service.jpg) center center/cover no-repeat local;
+    background: url("/landing-demo/assets/service.jpg") center center/cover no-repeat local;
     background-color: rgba(0, 0, 0, 0.95);
 }
 
@@ -673,7 +673,7 @@
 
 /* footer */
 .footer {
-    background: url(assets/footer-bg.png) center center/cover no-repeat local;
+    background: url("/landing-demo/assets/footer-bg.png") center center/cover no-repeat local;
 }
 
 .footer-col {
