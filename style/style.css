@@ -760,7 +760,7 @@
 .bottom-area p,
 .bottom-area a {
     font-weight: 600 !important;
-    margin: 0;
+    margin-bottom: 0 !important;
 }
 
 .bottom-area .bottom-logo a {
